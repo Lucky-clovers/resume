@@ -195,7 +195,7 @@ img{
     bottom:10px;
     left:50%;
     transform:translateX(-50%);
-  }
+  } 
 .dots li{
   display:inline-block;
   width:15px;
@@ -207,5 +207,12 @@ img{
 }
 .dots .dotted{
   background-color:lightgray;
+}
+.dots li:hover{
+  background-color:lightgray;
+  opacity: 0.8;
+}
+.direction li:hover{
+  opacity: 0.6;
 }
 </style>
